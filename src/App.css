@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  background-color: rgb(25, 25, 76);
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container{
+  display: flex;
+  width: 700px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px
+}
+.imgg{
+  width: 350px;
+  background-image: url(./assets/diet.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.data{
+  flex:1;
+  margin-top: 10px;
+
+}
+h1{
+  color: rgb(106, 138, 225);
+  margin-bottom: 15px;
+}
+.input-container{
+  margin-bottom: 20px;
+}
+.input-container label{
+  display: block;
+  color: rgb(105, 137, 226);
+}
+.input-container input{
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border:2px solid rgb(94, 94, 210);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.btngrp{
+  display: flex;
+  gap:30px;
+}
+.btngrp button{
+  padding: 8px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.get button{
+  background-color: rgb(84, 84, 194);
+  color:white;
+  letter-spacing:0.6px;
+}
+.clear button{
+  background-color: rgb(228, 73, 73);
+  color: white;
+  letter-spacing:0.6px;
+}
+.result{
+ margin-top: 25px;
+ font-weight: 600;
+ font-size: 25px;
+ letter-spacing: 0.5px;
+ color: rgb(112, 112, 243);
+}
+.err{
+  font-size: 16px;
+  color: red;
+  letter-spacing: 0.7px;
+  margin-bottom: 10px;
+}
