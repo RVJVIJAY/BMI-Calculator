@@ -1,5 +1,8 @@
 # BMI Calculator
 
+# sample screen
+![App Screenshot](./public/bmi.png)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
